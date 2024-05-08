@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    padding: 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,139 @@
+.container_content {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_content .card_content {
+    border: 1px solid rgb(136, 117, 246);
+    padding: 40px;
+    border-radius: 25px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_content .card_content h1 {
+    text-align: center;
+    color: rgb(136, 117, 246);
+}
+
+.container_content .card_content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_content input {
+    padding: 8px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(136, 117, 246);
+    border-bottom: 1px solid rgb(72, 62, 134);
+    margin-block: 4px;
+}
+
+.input {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.input small {
+    color: rgb(214, 65, 65);
+    padding: 0 8px;
+}
+
+small.success {
+    color: greenyellow;
+}
+
+.card_content input:focus {
+    border-bottom: 1px solid rgb(136, 117, 246);
+}
+
+.card_content input::placeholder {
+    color: rgb(72, 62, 134);
+    font-size: 16px;
+}
+
+.card_content button {
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 40px;
+    background-color: rgb(136, 117, 246);
+    border: none;
+    cursor: pointer;
+    color: rgb(42, 33, 71);
+    margin-top: 20px;
+}
+
+.card_content button:hover {
+    text-decoration: underline;
+    box-shadow: rgba(136, 117, 246, 0.3) 0px 0px 15px 5px;
+}
+
+.card_content a {
+    text-align: center;
+    display: inline-block;
+    margin-top: 16px;
+    color: rgb(136, 117, 246);
+    text-decoration: none;
+}
+
+.card_content a:hover {
+    text-decoration: underline;
+}
+
+/* Todo List */
+.todo_add {
+    display: flex;
+    position: relative;
+}
+
+.todo_add input {
+    flex-grow: 1;
+}
+
+.todo_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.todo_item small {
+    color: rgb(136, 117, 246);
+    cursor: pointer;
+}
+
+.todo_item small:hover {
+    text-decoration: underline;
+}
+
+button.btn_add {
+    position: absolute;
+    background: none;
+    color: rgb(136, 117, 246);
+    bottom: 0;
+    right: 0;
+}
+
+button.btn_add:hover {
+    box-shadow: none;
+}
+
+.checkbox_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox_item input[type=checkbox] {
+    cursor: pointer;
+}
